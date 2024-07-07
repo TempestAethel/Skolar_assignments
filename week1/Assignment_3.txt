@@ -4,5 +4,3 @@ Create a simple Python program in VS Code that prints "Hello, Python!
 
 Looking the information in assignment 2,half of the answer is given already 
 print("Hello, Python!") //prints the string "Hello, Python!"
-
-
