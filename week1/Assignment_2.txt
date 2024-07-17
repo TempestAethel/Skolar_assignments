@@ -23,5 +23,3 @@ Less Interactive: Not as user-friendly for rapid data exploration and visualizat
 In essence:
 Choose Jupyter Notebook if: Your focus is on data exploration, visualization, explaining code, or collaboration.
 Choose VS Code if: You need a robust code editor for large-scale development projects, advanced debugging, or prefer a more traditional coding environment.
-
-
