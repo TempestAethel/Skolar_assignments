@@ -4,7 +4,15 @@ Create a virtual environment named "ml_env" using the venv module (for Python 3.
 Activate the virtual environment and install a Python library of your choice (e.g., NumPy) within this environment. 
 Write a Python script that imports the library and performs a basic operation (e.g., creating an array or matrix).
 
-A virtual environment in Python is a self-contained directory tree that isolates project-specific Python interpreters, libraries, and dependencies, acting as a separate sandbox within the system's main Python installation. There are several reasons why it is important in data science projects. They include dependency separation, project repeatability, package control as well as tidiness and arrangement. Virtual environments assure each project of isolated environments with the exact versions it requires so that there are no clashes between different projects or with the python installation on the whole computer. They also ensure consistent and replicable environments when shared or reproduced on different machines, ensuring consistent code running across different systems. Package management is simplified by virtual environments since users can try out various libraries and versions without fear of unforeseen consequences. In addition to this, deploying virtual environments prevents overloading of system’s primary python installation by project specific dependencies leading to neatness and orderliness in work area.
+A virtual environment in Python is a self-contained directory tree that isolates project-specific Python interpreters, libraries, and dependencies, 
+acting as a separate sandbox within the system's main Python installation. 
+There are several reasons why it is important in data science projects. 
+They include dependency separation, project repeatability, package control as well as tidiness and arrangement. 
+Virtual environments assure each project of isolated environments with the exact versions it requires 
+so that there are no clashes between different projects or with the python installation on the whole computer. 
+They also ensure consistent and replicable environments when shared or reproduced on different machines, ensuring consistent code running across different systems. 
+Package management is simplified by virtual environments since users can try out various libraries and versions without fear of unforeseen consequences. 
+In addition to this, deploying virtual environments prevents overloading of system’s primary python installation by project specific dependencies leading to neatness and orderliness in work area.
 
 python -m venv ml_env
 creates a directory named "ml_env" with the necessary files for your virtual environment.
